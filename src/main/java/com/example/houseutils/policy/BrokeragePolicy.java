@@ -1,5 +1,8 @@
 package com.example.houseutils.policy;
 
+/**
+ * @author bean
+ */
 public interface BrokeragePolicy {
     BrokerageRule createBrokerageRule(Long price);
 

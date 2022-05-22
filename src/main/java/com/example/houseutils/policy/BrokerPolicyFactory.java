@@ -2,6 +2,9 @@ package com.example.houseutils.policy;
 
 import com.example.houseutils.constants.ActionType;
 
+/**
+ * @author bean
+ */
 public class BrokerPolicyFactory {
 
     public static BrokeragePolicy of(ActionType actionType) {
